@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Xdefenders — Building Tablefly Studio. Websites that fill tables.">
+  <defs>
+    <linearGradient id="strip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E0522D"/>
+      <stop offset="0.55" stop-color="#F0B73E"/>
+      <stop offset="1" stop-color="#E0522D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- warm cream background -->
+  <rect width="1200" height="320" fill="#FBF3E2"/>
+  <!-- soft decorative rings, top right -->
+  <circle cx="1120" cy="18" r="90" fill="none" stroke="#F0DFAE" stroke-width="26"/>
+  <circle cx="1168" cy="96" r="34" fill="none" stroke="#F5E7C8" stroke-width="14"/>
+
+  <!-- ===== Tablefly-style sun (clean vector, drawn for this banner) ===== -->
+  <g transform="translate(212,158)">
+    <!-- rays -->
+    <g fill="#E4572E">
+      <rect x="-11" y="-136" width="22" height="48" rx="11"/>
+      <rect x="-11" y="-136" width="22" height="48" rx="11" transform="rotate(45)"/>
+      <rect x="-11" y="-136" width="22" height="48" rx="11" transform="rotate(90)"/>
+      <rect x="-11" y="-136" width="22" height="48" rx="11" transform="rotate(135)"/>
+      <rect x="-11" y="-136" width="22" height="48" rx="11" transform="rotate(180)"/>
+      <rect x="-11" y="-136" width="22" height="48" rx="11" transform="rotate(225)"/>
+      <rect x="-11" y="-136" width="22" height="48" rx="11" transform="rotate(270)"/>
+      <rect x="-11" y="-136" width="22" height="48" rx="11" transform="rotate(315)"/>
+    </g>
+    <!-- golden ring -->
+    <circle r="72" fill="#F2B73E" stroke="#33231A" stroke-width="8"/>
+    <circle r="38" fill="#FBF3E2" stroke="#33231A" stroke-width="7"/>
+    <!-- leaf -->
+    <path d="M34,-64 C58,-92 86,-96 106,-90 C102,-64 84,-46 56,-44 C42,-46 32,-52 34,-64 Z" fill="#8FBF9F" stroke="#33231A" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ===== wordmark ===== -->
+  <text x="392" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="94" font-weight="bold" letter-spacing="1" fill="#33231A">X<tspan fill="#E0522D">defenders</tspan></text>
+  <text x="398" y="204" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" letter-spacing="6" fill="#E0522D">BUILDING TABLEFLY STUDIO</text>
+  <text x="398" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-style="italic" fill="#6B5138">Websites that fill tables.</text>
+
+  <!-- bottom accent strip -->
+  <rect y="306" width="1200" height="14" fill="url(#strip)"/>
+</svg>
